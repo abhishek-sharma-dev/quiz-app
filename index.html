@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QUIZ APP</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <button id="logoutBtn">Logout <i class="fas fa-sign-out-alt"></i></button>
+    </nav>
+
+    <div id="main-container">
+
+        <div id="quiz-container">
+
+            <h1>COMPUTER QUIZ</h1>
+
+            <div id="quiz-Question">
+            </div>
+
+            <div class="quiz-Options">
+
+                <div class="option">
+                    <input id="a" type="radio" name="radio" value="A">
+                    <label for="a"></label>
+                </div>
+                <div class="option">
+                    <input id="b" type="radio" name="radio" value="B">
+                    <label for="b"></label>
+                </div>
+
+                <div class="option">
+                    <input id="c" type="radio" name="radio" value="C">
+                    <label for="c"></label>
+                </div>
+                <div class="option">
+                    <input id="d" type="radio" name="radio" value="D">
+                    <label for="d"></label>
+                </div>
+
+            </div>
+
+            <div id="bottomBtn">
+                <button id="nextBtn">Next</button>
+            </div>
+
+        </div>
+
+        <div id="result">
+            <h1>QUIZ RESULT</h1>
+            <div id="totalResult">
+                <div class="answerResult">
+                    <span id="correct">Correct Answer : </span>
+                    <span id="corrAnswer"></span>
+                </div>
+    
+    
+                <div class="answerResult">
+                    <span id="wrong">Wrong Answer : </span>
+                    <span id="wrongAnswer"></span>
+                </div>
+    
+                <div class="answerResult">
+                    <span id="notAttemp">Not Attempted : </span>
+                    <span id="notAttempted"></span>
+                </div>
+            </div>
+            <div id="playAgain">
+                <button id="playAgainBtn">PlayAgain!</button>
+            </div>
+        </div>
+    </div>
+   
+
+
+    <script type='module' src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+        integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
